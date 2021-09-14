@@ -25,9 +25,9 @@ prob3_list = []
 for i in range(6):
     prob3_list.append(i)
 #✓ delete item 2; [0.5 point]
-del prob3_list[1]
+del prob3_list[2]
 #✓ insert 2.0 to the original position where 2 was; [0.5 point]
-prob3_list.insert(1,2.0)
+prob3_list.insert(2,2.0)
 #✓ return the length, maximal and minimal values of the newest list; [0.5 point]
 print(len(prob3_list))
 print(max(prob3_list))
@@ -40,3 +40,4 @@ tot = 0
 for i in prob4_list:
     tot += i
 print(tot)
+#print(sum(prob4_list))   Alternative/quicker method
