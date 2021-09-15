@@ -12,22 +12,26 @@ fav_colors = ["blue","black","white","green","orange"]
 
 #Generate a list of numbers from 30 to 60 with interval 3, for example, 30, 33, 36, …… 60. [1 point]
 num_list = list(range(30,61,3))
-#print(num_list)
+print(num_list)
 
 #Transfer this list into tuple [0.5 point]
 tup_num_list = tuple(num_list)
-#print(tup_num_list)
+print(tup_num_list)
 
 #Write code based on the following steps. Total 2 points.
 #✓ Create an empty list.
 prob3_list = []
+print(prob3_list)
 #✓ append integers from 0 to 5 to this list; [0.5 point]
 for i in range(6):
     prob3_list.append(i)
+print(prob3_list)
 #✓ delete item 2; [0.5 point]
 del prob3_list[2]
+print(prob3_list)
 #✓ insert 2.0 to the original position where 2 was; [0.5 point]
 prob3_list.insert(2,2.0)
+print(prob3_list)
 #✓ return the length, maximal and minimal values of the newest list; [0.5 point]
 print(len(prob3_list))
 print(max(prob3_list))
